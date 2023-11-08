@@ -1,12 +1,33 @@
+/*
 *{
     border: 1px dashed red;
     min-height: 10px;
 }
-
+*/
+.whole-wheat{
+    width: 545px;
+    margin: 0 auto;
+}
 .profile{
 display: flex;
 }
-.right-icons,.left-icons{
+.icons{
     display: flex;
     justify-content: space-between;
+}
+.header-left{
+    display: flex;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-left p{
+    padding: 0;
+    margin: 0;
+}
+.post-body{
+    margin: 0px 5px;
 }
